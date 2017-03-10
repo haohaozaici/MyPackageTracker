@@ -1,6 +1,8 @@
 package com.hao.mypackagetracker;
 
 import android.app.Application;
+import com.elvishew.xlog.LogLevel;
+import com.elvishew.xlog.XLog;
 import com.hao.mypackagetracker.SettingPreference.Setting;
 
 /**
@@ -10,8 +12,12 @@ import com.hao.mypackagetracker.SettingPreference.Setting;
 public class MyApplication extends Application {
 
     @Override
-    public void onCreate(){
+    public void onCreate() {
         super.onCreate();
+
+        //初始化log
+        XLog.init(LogLevel.ALL);
+
         Setting setting = Setting.getInstance(getApplicationContext());
 
     }

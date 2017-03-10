@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyPackageTracker</string>
+    <string name="navigation_item_all">全部</string>
+    <string name="navigation_item_delivered">已送达</string>
+    <string name="navigation_item_on_the_way">运输中</string>
+    <string name="frame_empty_tip">点击 “添加” 按钮新增快递包裹</string>
+</resources>

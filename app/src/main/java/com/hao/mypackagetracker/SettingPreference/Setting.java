@@ -45,18 +45,18 @@ public class Setting {
     }
 
 
-    public int getInt() {
-return mPrefs.getInt()
+    public int getInt(String key, int defult) {
+        return mPrefs.getInt(key, defult);
     }
 
 
-    public void putString() {
-
+    public void putString(String key, String value) {
+        mPrefs.edit().putString(key, value).apply();
     }
 
 
-    public String getString() {
-
+    public String getString(String key, String defult) {
+        return mPrefs.getString(key, defult);
     }
 
 }

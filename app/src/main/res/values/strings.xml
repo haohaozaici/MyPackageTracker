@@ -3,4 +3,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <!-- Home design -->
+    <string name="navigation_item_all">All</string>
+    <string name="navigation_item_delivered">Delivered</string>
+    <string name="navigation_item_on_the_way">On the way</string>
+    <string name="frame_empty_tip">Click \"Add\" button to add packages</string>
+
+
 </resources>
