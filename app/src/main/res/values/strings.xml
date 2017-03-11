@@ -9,6 +9,7 @@
     <string name="navigation_item_delivered">Delivered</string>
     <string name="navigation_item_on_the_way">On the way</string>
     <string name="frame_empty_tip">Click \"Add\" button to add packages</string>
+    <string name="action_remove">Remove</string>
 
 
 </resources>

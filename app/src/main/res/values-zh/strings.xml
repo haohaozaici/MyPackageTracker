@@ -5,4 +5,5 @@
     <string name="navigation_item_delivered">已送达</string>
     <string name="navigation_item_on_the_way">运输中</string>
     <string name="frame_empty_tip">点击 “添加” 按钮新增快递包裹</string>
+    <string name="action_remove">移除</string>
 </resources>
